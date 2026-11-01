@@ -1,0 +1,15 @@
+{
+	"name": "730amproject21adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "58760eae-ad98-4c40-b0c3-84fbde3d5640",
+		"tenantId": "4f3f8891-b715-48ff-baa3-c26a1d701c43"
+	}
+}

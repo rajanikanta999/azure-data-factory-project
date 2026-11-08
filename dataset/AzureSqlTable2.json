@@ -16,7 +16,8 @@
 				"type": "string"
 			},
 			"tablename": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "@split(item().tablename,'.')[1]"
 			}
 		},
 		"annotations": [],

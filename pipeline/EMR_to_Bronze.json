@@ -4,7 +4,7 @@
 		"activities": [
 			{
 				"name": "Lookup1",
-				"description": "Lookup activity",
+				"description": "Lookup activity.",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {

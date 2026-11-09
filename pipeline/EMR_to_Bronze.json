@@ -93,7 +93,10 @@
 							"inputs": [
 								{
 									"referenceName": "AzureSqlTable2",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"tablename": "@split(item().tablename,'.')[1]"
+									}
 								}
 							],
 							"outputs": [

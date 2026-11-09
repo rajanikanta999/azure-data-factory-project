@@ -12,7 +12,7 @@
 			}
 		},
 		"parameters": {
-			"dbname": {
+			"dbName": {
 				"type": "string"
 			},
 			"tablename": {

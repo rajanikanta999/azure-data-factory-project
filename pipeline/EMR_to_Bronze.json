@@ -102,7 +102,13 @@
 							"outputs": [
 								{
 									"referenceName": "emr_sink_parquet",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"folder": {
+											"value": "@split(item().tablename,'.')[1]",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}

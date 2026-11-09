@@ -105,6 +105,10 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"folder": {
+											"value": "@item().targetpath",
+											"type": "Expression"
+										},
+										"filename": {
 											"value": "@split(item().tablename,'.')[1]",
 											"type": "Expression"
 										}

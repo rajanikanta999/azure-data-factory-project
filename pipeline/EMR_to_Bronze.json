@@ -95,6 +95,10 @@
 									"referenceName": "AzureSqlTable2",
 									"type": "DatasetReference",
 									"parameters": {
+										"dbName": {
+											"value": "@item().database",
+											"type": "Expression"
+										},
 										"tablename": {
 											"value": "@split(item().tablename,'.')[1]",
 											"type": "Expression"

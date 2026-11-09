@@ -112,7 +112,7 @@
 											"type": "Expression"
 										},
 										"filename": {
-											"value": "@split(item().tablename,'.')[1]",
+											"value": "@split(item().tablename,',')[1]",
 											"type": "Expression"
 										}
 									}
